@@ -1,0 +1,46 @@
+.demo1-bar {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	height: 70px;
+	width: 8px;
+	vertical-align: middle;
+	background-color: #00e8ff;
+	border-radius: 4px;
+	transition: all 1s;
+	animation-duration: 1s;
+	animation-name: demo1;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.demo1-bar1 {
+	animation-delay: 0s;
+}
+
+.demo1-bar2 {
+	animation-delay: .2s;
+}
+
+.demo1-bar3 {
+	animation-delay: .4s;
+}
+
+.demo1-bar4 {
+	animation-delay: .6s;
+}
+
+.demo1-bar5 {
+	animation-delay: .8s;
+}
+
+@keyframes demo1{
+	0% {
+		height: 70px;
+		background-color: #00e8ff;
+	}
+	100% {
+		height: 40px;
+		background-color: #00ffa1;
+	}
+}

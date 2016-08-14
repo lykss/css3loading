@@ -1,0 +1,50 @@
+.demo2-bar {
+	position: relative;
+	height: 4px;
+	width: 160px;
+	border-radius: 2px;
+	transition: all 1s;
+	animation-delay: 0s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-name: demo2-bar;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes demo2-bar{
+	0% {
+		background-color: #00e8ff;
+	}
+	100% {
+		background-color: #00ffa1;
+	}
+}
+
+.demo2-circle {
+	position: absolute;
+	top: -10px;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	transition: all 1s;
+	animation-delay: 0s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-name: demo2-circle;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes demo2-circle{
+	0% {
+		left: 0;
+		background-color: #00e8ff;
+	}
+	50% {
+		left: 140px;
+		background-color: #00ffa1;
+	}
+	100% {
+		left: 0;
+		background-color: #00e8ff;
+	}
+}

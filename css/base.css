@@ -1,0 +1,14 @@
+.wrapper {
+	display: inline-block;
+    margin: 10px 0;
+    padding: 0 10px;
+    height: 200px;
+    width: 300px;
+    border: 1px dashed #00e8ff;
+    vertical-align: top;
+    border-radius: 6px;
+}
+
+.title {
+	color: #2196F3;
+}
